@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
 import { Link } from 'react-router-dom'
-import { RouteData } from '../../types/route'
+import { RouteData } from '../../../types/route'
 
 
 type HeaderNavProps = {

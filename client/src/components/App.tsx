@@ -1,7 +1,7 @@
 import { ReactElement } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import Layout from './Layout'
-import Router from './Router'
+import Layout from './global/Layout'
+import Router from './global/Router'
 import routes from '../kovoRoutes'
 
 const App = (): ReactElement => {
