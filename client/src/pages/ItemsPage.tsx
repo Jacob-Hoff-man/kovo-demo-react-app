@@ -1,12 +1,12 @@
+import ItemsList from '@components/items/ItemsList'
+import ItemsProvider from '@contexts/Items/provider'
 import { ReactElement } from 'react'
 
-type ItemsPageProps = {}
-
-const ItemsPage = ({ }: ItemsPageProps): ReactElement => {
+const ItemsPage = (): ReactElement => {
     return (
-        <p>
-            Items Page
-        </p>
+        <ItemsProvider>
+            <ItemsList />
+        </ItemsProvider>
     )
 }
 
