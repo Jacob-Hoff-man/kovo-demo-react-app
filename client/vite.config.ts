@@ -10,7 +10,8 @@ export default defineConfig({
       '@styles': '/src/styles',
       '@pages': '/src/pages',
       '@types-kovo': '/src/types',
-      '@constants': '/src/constants'
+      '@constants': '/src/constants',
+      '@contexts': '/src/contexts'
     },
   },
 })
