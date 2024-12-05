@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
 
-export type RouteData = {
+export interface RouteData {
     name: string
     path: string
     element: ReactElement

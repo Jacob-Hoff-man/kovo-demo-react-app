@@ -1,6 +1,6 @@
-import { RouteData } from './types/route'
-import HomePage from './pages/HomePage'
-import ItemsPage from './pages/ItemsPage'
+import { RouteData } from '@types/route'
+import HomePage from '@pages/HomePage'
+import ItemsPage from '@pages/ItemsPage'
 
 const kovoRoutes: RouteData[] = [
     {

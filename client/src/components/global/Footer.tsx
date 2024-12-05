@@ -1,5 +1,5 @@
+import '@styles/footer.css'
 import { ReactElement } from 'react'
-import '../styles/footer.css'
 
 type FooterProps = {}
 

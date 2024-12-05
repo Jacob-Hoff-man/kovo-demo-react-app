@@ -1,7 +1,8 @@
+import '@styles/header.css'
 import { ReactElement } from 'react'
-import '../../styles/header.css'
-import routes from '../../../kovoRoutes'
-import HeaderNav from './HeaderNav'
+import routes from '@constants/kovoRoutes'
+import HeaderNav from '@components/global/Header/HeaderNav'
+
 
 const Header = (): ReactElement => {
     return (

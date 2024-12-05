@@ -1,6 +1,6 @@
 import { ReactElement } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { RouteData } from '../../types/route'
+import { RouteData } from '@kovo-types/route'
 
 
 type RouterProps = {
