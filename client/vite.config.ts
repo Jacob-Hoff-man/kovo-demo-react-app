@@ -9,7 +9,7 @@ export default defineConfig({
       '@components': '/src/components',
       '@styles': '/src/styles',
       '@pages': '/src/pages',
-      '@kovo-types': '/src/interfaces',
+      '@types-kovo': '/src/types',
       '@constants': '/src/constants'
     },
   },
