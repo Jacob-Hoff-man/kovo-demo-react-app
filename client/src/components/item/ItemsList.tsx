@@ -1,4 +1,4 @@
-import { useItemsContext } from '@contexts/Items/context'
+import { useItemsContext } from '@contexts/items/context'
 
 const ItemsList = () => {
     const { items } = useItemsContext()

@@ -1,4 +1,4 @@
-import { useCoursesContext, useCoursesActionsContext } from '@contexts/Courses/context'
+import { useCoursesContext, useCoursesActionsContext } from '@contexts/courses/context'
 import { useGetCourses } from '@hooks/course/useGetCourses'
 import { useEffect } from 'react'
 

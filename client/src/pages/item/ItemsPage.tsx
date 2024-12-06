@@ -1,5 +1,5 @@
-import ItemsList from '@components/items/ItemsList'
-import ItemsProvider from '@contexts/Items/provider'
+import ItemsList from '@components/item/ItemsList'
+import ItemsProvider from '@contexts/items/provider'
 import { ReactElement } from 'react'
 
 const ItemsPage = (): ReactElement => {

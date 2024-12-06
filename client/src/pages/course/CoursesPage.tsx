@@ -1,5 +1,5 @@
-import CoursesList from '@components/courses/CoursesList'
-import CoursesProvider from '@contexts/Courses/provider'
+import CoursesList from '@components/course/CoursesList'
+import CoursesProvider from '@contexts/courses/provider'
 import { ReactElement } from 'react'
 
 const CoursesPage = (): ReactElement => {
