@@ -9,3 +9,7 @@ export type Course = {
 export type GetCoursesParams = {
 
 }
+
+export type GetCourseParams = {
+    courseId: string
+}

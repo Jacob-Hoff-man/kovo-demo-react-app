@@ -3,14 +3,19 @@ import { BrowserRouter } from 'react-router-dom'
 import Layout from './global/Layout'
 import Router from './global/Router'
 import routes from '@constants/kovoRoutes'
+import { QueryClient, QueryClientProvider } from 'react-query'
+
+const queryClient = new QueryClient()
 
 const App = (): ReactElement => {
   return (
-    <BrowserRouter>
-      <Layout>
-        <Router routes={routes} />
-      </Layout>
-    </BrowserRouter>
+    <QueryClientProvider client={queryClient}>
+      <BrowserRouter>
+        <Layout>
+          <Router routes={routes} />
+        </Layout>
+      </BrowserRouter>
+    </QueryClientProvider>
   )
 }
 
