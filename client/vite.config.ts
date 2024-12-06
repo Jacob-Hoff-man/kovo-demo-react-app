@@ -11,7 +11,9 @@ export default defineConfig({
       '@pages': '/src/pages',
       '@types-kovo': '/src/types',
       '@constants': '/src/constants',
-      '@contexts': '/src/contexts'
+      '@contexts': '/src/contexts',
+      '@queries': '/src/queries',
+      '@hooks': '/src/hooks'
     },
   },
 })

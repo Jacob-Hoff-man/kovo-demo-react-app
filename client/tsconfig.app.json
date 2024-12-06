@@ -42,6 +42,12 @@
       ],
       "@contexts/*": [
         "src/contexts/*"
+      ],
+      "@queries/*": [
+        "src/queries/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
       ]
     }
   },
